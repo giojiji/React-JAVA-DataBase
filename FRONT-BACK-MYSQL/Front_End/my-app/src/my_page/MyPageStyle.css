@@ -1,0 +1,96 @@
+.myPage {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  background: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  flex-direction: column;
+  color: white
+}
+
+.infobox {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myDetails {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.search {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+.selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.selected span {
+  width: 10%;
+}
+
+.result {
+  width: 100%;
+  height: 60%;
+}
+
+.data {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+  color: beige;
+  border-bottom: 1px solid whitesmoke;
+  gap: 1%;
+}
+
+.data span {
+  width: 40px;
+}
